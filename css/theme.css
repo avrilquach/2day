@@ -9,7 +9,23 @@ body {
   font-size: 14px; }
   @media (min-width: 1430px) {
     body .container {
-      max-width: 1430px; } }
+      max-width: 1430px; }
+    body .social_pin {
+      width: 1450px; } }
+
+.social_pin {
+  width: 1220px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  position: fixed;
+  z-index: 0; }
+  .social_pin ul {
+    width: 30px;
+    text-align: center; }
+    .social_pin ul li {
+      margin: 20px 0; }
 
 .container {
   max-width: 1200px; }
