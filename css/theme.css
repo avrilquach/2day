@@ -569,7 +569,10 @@ footer {
     position: relative; }
     .page_videos .video_top_ .video_sec:nth-child(1) .caption {
       position: absolute;
-      padding: 30px 115px;
+      width: 1200px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
       top: 20%; }
       .page_videos .video_top_ .video_sec:nth-child(1) .caption h1 {
         color: #fff;
@@ -596,6 +599,9 @@ footer {
       right: 0;
       width: 100%;
       height: 100%; }
+    .page_videos .video_top_ .video_sec:nth-child(1) img {
+      display: block;
+      margin: 0 auto; }
   .page_videos .video_top_ .video_sec:nth-child(2) {
     bottom: -250px;
     position: absolute; }
@@ -671,19 +677,6 @@ footer {
 
 .page_videos .item {
   position: relative; }
-  .page_videos .item::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(51.62%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6)));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 51.62%, rgba(0, 0, 0, 0.6) 100%);
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 51.62%, rgba(0, 0, 0, 0.6) 100%);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.62%, rgba(0, 0, 0, 0.6) 100%);
-    content: ''; }
   .page_videos .item._style {
     display: block;
     height: 100%; }
